@@ -1,3 +1,17 @@
+body{
+  text-align: center;
+}
+
+.replay{
+  margin: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #850000;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -7,8 +21,8 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
+
 
 .red{
   background-color: red;
@@ -22,7 +36,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 5rem;
   color: #4ECCA3;
 }
 
@@ -34,6 +48,14 @@ p {
 
 img {
   width: 80%;
+}
+
+.stats{
+  color: white;
+}
+
+.stats tr{
+  font-size: 3rem;
 }
 
 footer {
